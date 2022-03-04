@@ -41,7 +41,7 @@ public class ShowHBoxVBox extends Application {
         Button b = new Button("Computer Science");
         hBox.getChildren().add(b);
         hBox.getChildren().add(new Button("Chemistry"));
-        ImageView imageView = new ImageView(new Image("image/us.gif"));
+        ImageView imageView = new ImageView(new Image("image/ps.png"));
         hBox.getChildren().add(imageView);
         return hBox;
     }
